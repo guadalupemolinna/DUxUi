@@ -1,6 +1,4 @@
-/* ==========================================================================
-   Variables CSS (Custom Properties)
-   ========================================================================== */
+
 :root {
   --font-family: Arial, Helvetica, sans-serif;
   --bg-page: #f4f6fa;
@@ -12,7 +10,7 @@
   --color-border: #d0d7de;
   --color-border-light: #e5e9f0;
 
-  /* Colores temáticos para las materias */
+ 
   --bg-ux: #e8f0fe;
   --border-ux: #4285f4;
   --text-ux: #174ea6;
@@ -49,9 +47,7 @@
   --transition: all 0.2s ease-in-out;
 }
 
-/* ==========================================================================
-   Reset y estilos base
-   ========================================================================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -66,9 +62,6 @@ body {
   padding: 2rem 1rem;
 }
 
-/* ==========================================================================
-   Contenedor principal
-   ========================================================================== */
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -126,9 +119,7 @@ caption {
   border-bottom: 1px solid var(--color-border);
 }
 
-/* ==========================================================================
-   Encabezados (thead)
-   ========================================================================== */
+
 thead th {
   background-color: var(--color-primary);
   color: #ffffff;
@@ -169,9 +160,6 @@ tbody tr:hover td:not(.cell-break) {
   filter: brightness(0.97);
 }
 
-/* ==========================================================================
-   Celdas de asignaturas / cursos (Flexbox layout interno)
-   ========================================================================== */
 .cell-course {
   font-size: 0.88rem;
 }
@@ -197,7 +185,7 @@ tbody tr:hover td:not(.cell-break) {
   opacity: 0.85;
 }
 
-/* Variaciones temáticas por materia */
+
 .course-ux {
   background-color: var(--bg-ux);
   color: var(--text-ux);
@@ -240,7 +228,7 @@ tbody tr:hover td:not(.cell-break) {
   border-left: 4px solid var(--border-workshop);
 }
 
-/* Celda de intervalo / descanso (colspan) */
+
 .cell-break {
   background-color: var(--bg-break);
   color: var(--text-break);
@@ -250,7 +238,6 @@ tbody tr:hover td:not(.cell-break) {
   letter-spacing: 0.5px;
 }
 
-/* Celda vacía / consulta */
 .cell-empty {
   background-color: #fafafa;
   color: #888888;
@@ -258,9 +245,7 @@ tbody tr:hover td:not(.cell-break) {
   font-style: italic;
 }
 
-/* ==========================================================================
-   Pie de tabla (tfoot)
-   ========================================================================== */
+
 tfoot {
   background-color: #f8f9fa;
   border-top: 2px solid var(--color-primary);
