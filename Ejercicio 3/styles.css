@@ -88,9 +88,6 @@ body {
   font-weight: 500;
 }
 
-/* ==========================================================================
-   Contenedor responsivo de la tabla
-   ========================================================================== */
 .table-responsive {
   width: 100%;
   overflow-x: auto;
@@ -98,9 +95,7 @@ body {
   border-radius: 8px;
 }
 
-/* ==========================================================================
-   Estructura general de la tabla
-   ========================================================================== */
+
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
@@ -136,9 +131,7 @@ thead th.col-time {
   background-color: var(--color-primary-dark);
 }
 
-/* ==========================================================================
-   Cuerpo de la tabla (tbody)
-   ========================================================================== */
+
 tbody th.row-time {
   background-color: #f7f9fc;
   color: var(--color-text-muted);
@@ -276,9 +269,6 @@ tfoot .tfoot-note {
   color: #495057;
 }
 
-/* ==========================================================================
-   Diseño responsivo
-   ========================================================================== */
 @media (max-width: 768px) {
   body {
     padding: 1rem 0.5rem;
